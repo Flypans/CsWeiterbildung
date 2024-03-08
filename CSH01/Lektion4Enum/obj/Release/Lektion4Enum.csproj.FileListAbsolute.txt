@@ -1,0 +1,6 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion4Enum\bin\Release\Lektion4Enum.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion4Enum\bin\Release\Lektion4Enum.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion4Enum\bin\Release\Lektion4Enum.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion4Enum\obj\Release\Lektion4Enum.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion4Enum\obj\Release\Lektion4Enum.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion4Enum\obj\Release\Lektion4Enum.pdb

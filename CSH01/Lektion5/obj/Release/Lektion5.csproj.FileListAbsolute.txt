@@ -1,0 +1,6 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion5\bin\Release\Lektion5.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion5\bin\Release\Lektion5.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion5\bin\Release\Lektion5.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion5\obj\Release\Lektion5.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion5\obj\Release\Lektion5.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion5\obj\Release\Lektion5.pdb

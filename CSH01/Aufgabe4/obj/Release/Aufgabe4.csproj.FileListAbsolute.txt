@@ -1,0 +1,6 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Aufgabe4\bin\Release\Aufgabe4.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Aufgabe4\bin\Release\Aufgabe4.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Aufgabe4\bin\Release\Aufgabe4.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Aufgabe4\obj\Release\Aufgabe4.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Aufgabe4\obj\Release\Aufgabe4.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Aufgabe4\obj\Release\Aufgabe4.pdb

@@ -1,0 +1,9 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektione3WHA\bin\Release\Lektione3WHA.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektione3WHA\bin\Release\Lektione3WHA.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektione3WHA\bin\Release\Lektione3WHA.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektione3WHA\obj\Release\Lektione3WHA.Properties.Resources.resources
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektione3WHA\obj\Release\Lektione3WHA.csproj.GenerateResource.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektione3WHA\obj\Release\Lektione3WHA.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektione3WHA\obj\Release\Lektione3WHA.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektione3WHA\obj\Release\Lektione3WHA.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektione3WHA\obj\Release\Lektione3WHA.csproj.AssemblyReference.cache

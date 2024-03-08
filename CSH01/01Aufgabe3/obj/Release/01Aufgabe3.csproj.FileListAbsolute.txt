@@ -1,0 +1,7 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH01\01Aufgabe3\bin\Release\01Aufgabe3.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH01\01Aufgabe3\bin\Release\01Aufgabe3.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH01\01Aufgabe3\bin\Release\01Aufgabe3.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH01\01Aufgabe3\obj\Release\01Aufgabe3.csproj.AssemblyReference.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH01\01Aufgabe3\obj\Release\01Aufgabe3.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH01\01Aufgabe3\obj\Release\01Aufgabe3.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH01\01Aufgabe3\obj\Release\01Aufgabe3.pdb

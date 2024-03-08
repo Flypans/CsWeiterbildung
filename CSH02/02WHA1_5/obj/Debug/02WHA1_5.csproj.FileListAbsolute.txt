@@ -1,0 +1,7 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA1_5\obj\Debug\02WHA1_5.csproj.AssemblyReference.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA1_5\obj\Debug\02WHA1_5.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA1_5\bin\Debug\02WHA1_5.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA1_5\bin\Debug\02WHA1_5.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA1_5\bin\Debug\02WHA1_5.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA1_5\obj\Debug\02WHA1_5.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA1_5\obj\Debug\02WHA1_5.pdb

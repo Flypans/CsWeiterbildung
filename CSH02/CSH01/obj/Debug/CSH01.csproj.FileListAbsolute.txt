@@ -1,0 +1,6 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH02\CSH01\bin\Debug\CSH01.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH02\CSH01\bin\Debug\CSH01.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH02\CSH01\bin\Debug\CSH01.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH02\CSH01\obj\Debug\CSH01.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH02\CSH01\obj\Debug\CSH01.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH02\CSH01\obj\Debug\CSH01.pdb

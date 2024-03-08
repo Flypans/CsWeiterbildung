@@ -1,0 +1,14 @@
+C:\CSH-Lehrgang\CSH01\VS-Projekte\CSH01\Lektion2\bin\Release\Lektion2.exe.config
+C:\CSH-Lehrgang\CSH01\VS-Projekte\CSH01\Lektion2\bin\Release\Lektion2.exe
+C:\CSH-Lehrgang\CSH01\VS-Projekte\CSH01\Lektion2\bin\Release\Lektion2.pdb
+C:\CSH-Lehrgang\CSH01\VS-Projekte\CSH01\Lektion2\obj\Release\Lektion2.csproj.AssemblyReference.cache
+C:\CSH-Lehrgang\CSH01\VS-Projekte\CSH01\Lektion2\obj\Release\Lektion2.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\CSH01\VS-Projekte\CSH01\Lektion2\obj\Release\Lektion2.exe
+C:\CSH-Lehrgang\CSH01\VS-Projekte\CSH01\Lektion2\obj\Release\Lektion2.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion2\bin\Release\Lektion2.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion2\bin\Release\Lektion2.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion2\bin\Release\Lektion2.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion2\obj\Release\Lektion2.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion2\obj\Release\Lektion2.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion2\obj\Release\Lektion2.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH01\Lektion2\obj\Release\Lektion2.csproj.AssemblyReference.cache

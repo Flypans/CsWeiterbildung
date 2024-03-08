@@ -1,0 +1,7 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH01\CS02Aufgabe4_v2\bin\Release\CS02Aufgabe4_v2.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH01\CS02Aufgabe4_v2\bin\Release\CS02Aufgabe4_v2.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH01\CS02Aufgabe4_v2\bin\Release\CS02Aufgabe4_v2.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH01\CS02Aufgabe4_v2\obj\Release\02Aufgabe4_v2.csproj.AssemblyReference.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH01\CS02Aufgabe4_v2\obj\Release\02Aufgabe4_v2.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH01\CS02Aufgabe4_v2\obj\Release\CS02Aufgabe4_v2.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH01\CS02Aufgabe4_v2\obj\Release\CS02Aufgabe4_v2.pdb
