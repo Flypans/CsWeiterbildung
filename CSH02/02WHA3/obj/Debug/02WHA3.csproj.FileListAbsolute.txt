@@ -1,0 +1,7 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA3\bin\Debug\02WHA3.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA3\bin\Debug\02WHA3.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA3\bin\Debug\02WHA3.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA3\obj\Debug\02WHA3.csproj.AssemblyReference.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA3\obj\Debug\02WHA3.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA3\obj\Debug\02WHA3.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA3\obj\Debug\02WHA3.pdb

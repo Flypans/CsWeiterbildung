@@ -1,0 +1,7 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH02\EgyptianMultiplication\obj\Debug\EgyptianMultiplication.csproj.AssemblyReference.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH02\EgyptianMultiplication\obj\Debug\EgyptianMultiplication.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH02\EgyptianMultiplication\bin\Debug\EgyptianMultiplication.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH02\EgyptianMultiplication\bin\Debug\EgyptianMultiplication.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH02\EgyptianMultiplication\bin\Debug\EgyptianMultiplication.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH02\EgyptianMultiplication\obj\Debug\EgyptianMultiplication.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH02\EgyptianMultiplication\obj\Debug\EgyptianMultiplication.pdb

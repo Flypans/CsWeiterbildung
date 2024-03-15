@@ -1,0 +1,6 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA4\bin\Debug\02WHA4.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA4\bin\Debug\02WHA4.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA4\bin\Debug\02WHA4.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA4\obj\Debug\02WHA4.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA4\obj\Debug\02WHA4.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH02\02WHA4\obj\Debug\02WHA4.pdb

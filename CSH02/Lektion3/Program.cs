@@ -13,14 +13,15 @@ namespace Lektion3
         {
             int var = 1;
 
-            Console.WriteLine("Präfix-Inkrement /-Dekrement");
+            Console.WriteLine("Postfix-Inkrement /-Dekrement");
             Console.WriteLine("var++ = {0}", var++); //1
             Console.WriteLine("var   = {0}", var);//2
             Console.WriteLine("var-- = {0}", var--);//2
             Console.WriteLine("var   = {0}", var);//1
 
             var = 1;
-            Console.WriteLine("Postfix-Inkrement /-Dekrement");
+
+            Console.WriteLine("Präfix-Inkrement /-Dekrement");
             Console.WriteLine("++var = {0}", ++var);//2
             Console.WriteLine("var   = {0}", var);//2
             Console.WriteLine("--var = {0}", --var);//1
@@ -191,6 +192,59 @@ namespace Lektion3
             ops.ShifOperator();
             ops.InkrementUndDekrement();
 
+            //is 연산자(키워드) 는 주어진 객체가 특정 타입과 일치하는지 확인하는 데 사용됩니다.
+            //이 표현식은 true 또는 false가 될 수 있습니다.
+            object obj = "Hello";
+
+            if (obj is string)
+            {
+                Console.WriteLine("obj is {0} type",obj.GetType());
+            }
+            else
+            {
+                Console.WriteLine("obj is not String type.");
+            }
+
+            //as 연산자(키워드)는 하나의 타입을 다른 타입으로 변환하는 데 사용됩니다.
+            //이 코드는 obj가 string 형식으로 변환될 수 있는지를 확인합니다.
+            //만약 obj가 string 형식으로 변환 가능하면 변환을 시도하고,
+            //변환에 실패하면 null을 반환합니다.
+            string s = obj as string;
+
+            Console.WriteLine("obj is {0} type and s is {1} type  ", obj.GetType(),s.GetType());
+
+            if (s != null)
+            {
+                Console.WriteLine("obj changed to string type.");
+            }
+
+            int MValue = int.MaxValue;
+            int aValue = 10;
+            int result = 0;
+
+            try
+            {
+                checked
+                {
+                    result = MValue + aValue;
+                }
+                
+                Console.WriteLine($"{MValue} + {aValue} = {result}");
+            }
+            catch (OverflowException ex)
+            {
+                Console.WriteLine("Overflow Error ! : " + ex.Message); // exception message
+            }
+
+            checked
+            {
+                result = MValue + aValue;
+            }
+
+            unchecked
+            {
+                result = MValue + aValue;
+            }
         }
     }
 }
