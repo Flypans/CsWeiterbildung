@@ -1,6 +1,0 @@
-C:\CSH-Lehrgang\VS-Projekte\CSH02\testCode\bin\Debug\testCode.exe.config
-C:\CSH-Lehrgang\VS-Projekte\CSH02\testCode\bin\Debug\testCode.exe
-C:\CSH-Lehrgang\VS-Projekte\CSH02\testCode\bin\Debug\testCode.pdb
-C:\CSH-Lehrgang\VS-Projekte\CSH02\testCode\obj\Debug\testCode.csproj.CoreCompileInputs.cache
-C:\CSH-Lehrgang\VS-Projekte\CSH02\testCode\obj\Debug\testCode.exe
-C:\CSH-Lehrgang\VS-Projekte\CSH02\testCode\obj\Debug\testCode.pdb

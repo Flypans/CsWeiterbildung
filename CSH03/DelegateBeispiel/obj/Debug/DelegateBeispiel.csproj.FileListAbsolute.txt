@@ -1,0 +1,7 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH03\DelegateBeispiel\bin\Debug\DelegateBeispiel.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH03\DelegateBeispiel\bin\Debug\DelegateBeispiel.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH03\DelegateBeispiel\bin\Debug\DelegateBeispiel.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH03\DelegateBeispiel\obj\Debug\DelegateBeispiel.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH03\DelegateBeispiel\obj\Debug\DelegateBeispiel.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH03\DelegateBeispiel\obj\Debug\DelegateBeispiel.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH03\DelegateBeispiel\obj\Debug\DelegateBeispiel.csproj.AssemblyReference.cache
