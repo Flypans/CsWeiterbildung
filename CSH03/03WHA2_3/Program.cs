@@ -2,9 +2,10 @@
 using System.Threading;
 
 //#error version
-namespace CSH03_Lektion2
+namespace _03WHA2_3
 {
     public delegate void TransponderDel(string kennung, Position pos); //Delegate TransponderDel 2 Parameter
+    public delegate void FliegerRegisterDel();
 
     interface ITransponder
     {
@@ -131,7 +132,6 @@ namespace CSH03_Lektion2
                     fluggäste += value;
                 }
             }
-
             get { return fluggäste; }
         }
 
@@ -153,6 +153,8 @@ namespace CSH03_Lektion2
     {
         //transponder라는 정적 델리게이트를 정의
         public static TransponderDel transponder;
+
+        public static FliegerRegisterDel fliegerRegister;
 
         public void TransponderTest() // Code 1.6
         {
@@ -180,14 +182,14 @@ namespace CSH03_Lektion2
 
         public void ProgrammTakten()
         {
-            Starrflügelflugzeug flieger1 = new Starrflügelflugzeug("LH 3000", new Position(3000, 2000, 100));
-            
             Starrflügelflugzeug flieger2 = new Starrflügelflugzeug("LH 500", new Position(3500, 1500, 180));
+            Program.fliegerRegister = Program.fliegerRegister + flieger2.Steuern;
+
+            Starrflügelflugzeug flieger1 = new Starrflügelflugzeug("LH 3000", new Position(3000, 2000, 100));
+            Program.fliegerRegister = Program.fliegerRegister + flieger1.Steuern;
 
             while (true)
             {
-                flieger1.Steuern();
-                flieger2.Steuern();
                 Console.WriteLine();
                 Thread.Sleep(1000);// 1 Sekunde
             }

@@ -9,8 +9,9 @@ namespace ThreadExample
         {
             while(true)
             {
-                Console.WriteLine(DateTime.Now);
-                //Thread.Sleep(1000);// 1 Sekunde
+                //Console.WriteLine(DateTime.Now);
+                Console.Write("\r{0}",DateTime.Now);
+                Thread.Sleep(1000);// 1 Sekunde
             }
         }
 
