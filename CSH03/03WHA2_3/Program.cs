@@ -5,7 +5,7 @@ using System.Threading;
 namespace _03WHA2_3
 {
     public delegate void TransponderDel(string kennung, Position pos); //Delegate TransponderDel 2 Parameter
-    public delegate void FliegerRegisterDel();
+    public delegate void FliegerRegisterDel();//Delegate no Parameter
 
     interface ITransponder
     {
@@ -151,9 +151,10 @@ namespace _03WHA2_3
 
     class Program
     {
-        //transponder라는 정적 델리게이트를 정의
+        //transponder 정적 델리게이트를 정의
         public static TransponderDel transponder;
 
+        //FliegerRegisterDel 정적 델리게이트를 정의
         public static FliegerRegisterDel fliegerRegister;
 
         public void TransponderTest() // Code 1.6
