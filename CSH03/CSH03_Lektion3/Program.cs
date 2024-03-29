@@ -33,6 +33,7 @@ namespace CSH03_Lektion3
             x = x + deltaX;
             y = y + deltaY;
             h = h + deltaH;
+            Console.WriteLine($"~~~ deltaX: {deltaX}, deltaY: {deltaY}, deltaH: {deltaH}, x: {x}, y: {y}, h: {h}");
         }
     }
 
@@ -63,7 +64,6 @@ namespace CSH03_Lektion3
         {
             this.kennung = kennung;
             this.pos = pos;
-
         }
     }
 
@@ -93,6 +93,9 @@ namespace CSH03_Lektion3
             {
                 Program.transponder(kennung, pos);
 
+                Console.WriteLine($"~~~ a({a}) = zielPos.x ({zielPos.x}) - pos.x ({pos.x})");
+                Console.WriteLine($"~~~ b({b}) = zielPos.y ({zielPos.y}) - pos.y ({pos.y})");
+
                 a = zielPos.x - pos.x;
                 b = zielPos.y - pos.y;
                 alpha = Math.Atan2(b, a);
@@ -102,7 +105,9 @@ namespace CSH03_Lektion3
                 b1 = Math.Sin(alpha) * streckeProTakt;
                 pos.PositionÄndern((int)a1, (int)b1, 0);
 
-                if(Math.Sqrt(Math.Pow(a, 2)+ Math.Pow(b, 2)) < streckeProTakt)
+                //Console.WriteLine($"~~~ a: {a}, b: {b}, alpha: {alpha}, a1: {a1}, b1: {b1}");
+
+                if (Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2)) < streckeProTakt)
                 {
                     gelandet = true;
                     Console.WriteLine("\n{0} an Position " + "x = {1}, y = {2} gelandet", kennung, pos.x, pos.y);
@@ -112,7 +117,7 @@ namespace CSH03_Lektion3
                     //fliegerRegister EVENT handler list 에서 Steuern() Method를 제거하여
                     //비행기가 착륙한 후 다시 call 되는 것을 효과적으로 방지합니다.
                     //이렇게 하면 비행기가 목적지에 도달한 후에 메서드가 반복적으로 실행되지 않습니다.
-                    Program.fliegerRegister -= this.Steuern; 
+                    Program.fliegerRegister -= this.Steuern;
                 }
             }
         }
@@ -133,7 +138,8 @@ namespace CSH03_Lektion3
                 Program.fliegerRegister += flieger2.Steuern;
                 flieger2.Starte(new Position(1000, 500, 200), 260, 350, 25, 15);
 
-                while (true)
+                //while (true)
+                while (fliegerRegister != null)
                 {
                     fliegerRegister();
                     Console.WriteLine();
