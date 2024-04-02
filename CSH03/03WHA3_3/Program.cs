@@ -137,6 +137,8 @@ namespace _03WHA3_3
 
         public void Transpond(string kennung, Position pos)
         {
+            double abstand = Math.Sqrt(Math.Pow(this.pos.x - pos.x, 2) + Math.Pow(this.pos.y - pos.y, 2));
+
             if (kennung.Equals(this.kennung))
             {
                 DateTime timestamp = DateTime.Now;
@@ -144,6 +146,15 @@ namespace _03WHA3_3
                 //Console.WriteLine("{0} an Position x = {1}, y = {2}, h = {3}", kennung, pos.x, pos.y, pos.h);
                 Console.Write("\t {0}-Position: {1}-{2}-{3} ", this.kennung, pos.x, pos.y, pos.h);
                 Console.Write("Zieldistanz: {0} m \n", Zieldistanz());
+            }
+            else
+            {
+                Console.Write("\t {0} ist {1} m von {2} entfernt.\n", this.kennung, (int)abstand, kennung);
+
+                if (Math.Abs(this.pos.h) < 100 && abstand < 500)
+                {
+                    Console.WriteLine("\t WARNUNG: {0} hat nur {1} m Höhenabstand!", kennung, Math.Abs(this.pos.h - pos.h));
+                }
             }
         }
 
