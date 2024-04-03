@@ -1,0 +1,7 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH03\BinaryBeispiele\obj\Debug\BinaryBeispiele.csproj.AssemblyReference.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH03\BinaryBeispiele\obj\Debug\BinaryBeispiele.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH03\BinaryBeispiele\bin\Debug\BinaryBeispiele.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH03\BinaryBeispiele\bin\Debug\BinaryBeispiele.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH03\BinaryBeispiele\bin\Debug\BinaryBeispiele.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH03\BinaryBeispiele\obj\Debug\BinaryBeispiele.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH03\BinaryBeispiele\obj\Debug\BinaryBeispiele.pdb

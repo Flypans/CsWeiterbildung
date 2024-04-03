@@ -1,0 +1,3 @@
+Dieser Text wird Inhalt der Datei. 
+Er enthält Zeilenumbrüche und eine Pfadangabe: 
+C:\CSH-Lehrgang\VS-Projekte\CSH03\Streamdatei.txt

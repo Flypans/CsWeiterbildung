@@ -1,0 +1,7 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH03\StreamBeispiele\bin\Debug\StreamBeispiele.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH03\StreamBeispiele\bin\Debug\StreamBeispiele.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH03\StreamBeispiele\bin\Debug\StreamBeispiele.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH03\StreamBeispiele\obj\Debug\StreamBeispiele.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH03\StreamBeispiele\obj\Debug\StreamBeispiele.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH03\StreamBeispiele\obj\Debug\StreamBeispiele.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH03\StreamBeispiele\obj\Debug\StreamBeispiele.csproj.AssemblyReference.cache

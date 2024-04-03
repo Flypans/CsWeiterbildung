@@ -1,0 +1,7 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH03\FileBeispiele\bin\Debug\FileBeispiele.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH03\FileBeispiele\bin\Debug\FileBeispiele.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH03\FileBeispiele\bin\Debug\FileBeispiele.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH03\FileBeispiele\obj\Debug\FileBeispiele.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH03\FileBeispiele\obj\Debug\FileBeispiele.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH03\FileBeispiele\obj\Debug\FileBeispiele.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH03\FileBeispiele\obj\Debug\FileBeispiele.csproj.AssemblyReference.cache
