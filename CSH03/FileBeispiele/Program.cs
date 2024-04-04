@@ -32,7 +32,11 @@ namespace FileBeispiele
         public void DateiErstellen(string pfad, byte[] array)
         {
             FileStream stream = File.Open(pfad, FileMode.Create);
-            stream.Write(array, 0, array.Length);
+            //stream.Write(array, 0, array.Length);
+            for (int i = 0; i < array.Length; i++)
+            {
+                stream.WriteByte(array[i]);
+            }
             stream.Close();
         }
         static void Main(string[] args)

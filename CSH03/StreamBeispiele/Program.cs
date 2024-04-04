@@ -16,13 +16,22 @@ namespace StreamBeispiele
         {
             StreamReader reader = new StreamReader(File.Open(pfad, FileMode.Open));
             //Console.WriteLine(reader.ReadLine());
-            string line;
+/*          string line;
 
             while ((line = reader.ReadLine()) != null)
             {
                 Console.WriteLine(line);
             }
             Console.WriteLine(0);
+                        reader.Close();
+*/
+            int zeichen;
+
+            while((zeichen = reader.Read()) != -1)
+            {
+                Console.WriteLine((char)zeichen);
+                //Console.WriteLine(zeichen);
+            }
             reader.Close();
         }
 
