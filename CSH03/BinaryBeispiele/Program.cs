@@ -9,7 +9,7 @@ namespace BinaryBeispiele
     {
         public void BinaryRead(string path)
         {
-            BinaryReader reader = new BinaryReader(File.Open(path, FileMode.Open));
+
 
             /*
                         //Hard coding i < 3
@@ -18,6 +18,20 @@ namespace BinaryBeispiele
                             Console.Write("{0}", reader.ReadInt32());
                         }
             */
+
+            BinaryReader reader = null;// 선언, 초기화
+            try
+            {
+                //BinaryReader reader = new BinaryReader(File.Open(path, FileMode.Open));
+                reader = new BinaryReader(File.Open(path, FileMode.Open));
+
+            }
+            catch (FileNotFoundException e)
+            {
+                Console.WriteLine("Die Datei \"{0}\" wurde nicht gefunden.", path);
+                return;
+            }
+
             bool goOn = true;
 
             while (goOn)
@@ -38,6 +52,15 @@ namespace BinaryBeispiele
                 catch (IOException e)
                 {
                     goOn = false;
+                }
+                finally
+                {
+                    //reader의 리턴값은 BinaryReader 오브젝트,해당 오브젝트가 정상적으로 생성되었는지 확인하기 위해
+                    //null 인 경우는 예외발생으로 오브젝트 생성이 안되었기 때문에 Close() 호출 필요없음.
+                    if (reader != null)
+                    {
+                        reader.Close();
+                    }
                 }
             }
 
