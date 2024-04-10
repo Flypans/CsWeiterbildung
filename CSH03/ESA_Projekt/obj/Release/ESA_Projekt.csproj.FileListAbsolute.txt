@@ -1,0 +1,7 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH03\ESA_Projekt\bin\Release\ESA_Projekt.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH03\ESA_Projekt\bin\Release\ESA_Projekt.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH03\ESA_Projekt\bin\Release\ESA_Projekt.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH03\ESA_Projekt\obj\Release\ESA_Projekt.csproj.AssemblyReference.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH03\ESA_Projekt\obj\Release\ESA_Projekt.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH03\ESA_Projekt\obj\Release\ESA_Projekt.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH03\ESA_Projekt\obj\Release\ESA_Projekt.pdb
