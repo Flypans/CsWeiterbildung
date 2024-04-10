@@ -1,0 +1,7 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH03\BinToCmd\obj\Debug\BinToCmd.csproj.AssemblyReference.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH03\BinToCmd\obj\Debug\BinToCmd.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH03\BinToCmd\bin\Debug\BinToCmd.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH03\BinToCmd\bin\Debug\BinToCmd.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH03\BinToCmd\bin\Debug\BinToCmd.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH03\BinToCmd\obj\Debug\BinToCmd.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH03\BinToCmd\obj\Debug\BinToCmd.pdb

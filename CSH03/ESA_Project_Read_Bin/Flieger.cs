@@ -4,8 +4,7 @@ using System.Threading;
 using System.IO;
 
 
-
-namespace ESA_Project
+namespace ESA_Project_Read_Bin
 {
     public delegate void TransponderDel(string kennung, Position pos); //Delegate TransponderDel 2 Parameter
     public delegate void FliegerRegisterDel();//Delegate no Parameter
@@ -26,7 +25,6 @@ namespace ESA_Project
             this.y = y;
             this.h = h;
         }
-
         public void PositionÄndern(int deltaX, int deltaY, int deltaH)
         {
             //Console.WriteLine($"x:{x}, y:{y}, h:{h}, deltaX:{deltaX}, deltaY:{deltaY}, deltaH:{deltaH}");
@@ -62,14 +60,16 @@ namespace ESA_Project
 
         protected int steighöheProTakt;
         protected int sinkhöheProTakt;
-        
-        public static bool protokollieren = true;
-        public string fileName;
 
+        public string fileName;
         public string pfad;
+        public string header;
+
+        public StreamWriter writer;
+        public static bool protokollieren = true;
+
         protected bool steigt = false;
         protected bool sinkt = false;
-
         public Flugzeug(string kennung, Position startPos)
         {
             this.kennung = kennung;
@@ -92,11 +92,11 @@ namespace ESA_Project
     {
         double a, b, alpha, a1, b1;
         bool gelandet = false;
-        
+
         public Starrflügelflugzeug(string kennung, Position startPos) : base(kennung, startPos)
         {
-            //Aircraft.transponder += new TransponderDel(Transpond);
-            Aircraft.transponder += Transpond;//MG
+            //Flieger.transponder += new TransponderDel(Transpond);
+            Flieger.transponder += Transpond;//MG
         }
         public void Transpond(string kennung, Position pos)
         {
@@ -161,54 +161,45 @@ namespace ESA_Project
                 int minute = DateTime.Now.Minute;
                 int second = DateTime.Now.Second;
 
-             
-                //<kennung>_<Tag>-<Stunde>-<Minute>-<Sekunde>.bin
-                //string fileName = $"{kennung}_{day}_{month}_{hour}_{minute}_{second}.bin";
-
                 //Aufgabe3.b
                 //Innerhalb der Klasse Starrflugelflug wird der Dateipfad gesetzt,
                 //da sie mit den Methoden des Flugzeugobjekts leicht aufgerufen werden kann.
 
-                
                 fileName = $"{kennung}_{day}_{hour}_{minute}_{second}.bin";
 
                 pfad = @"C:\CSH-Lehrgang\VS-Projekte\" + fileName;
-
-                Console.WriteLine($"filename: {fileName}, pfad: {pfad}");
+                //Console.WriteLine($"filename: {fileName}, pfad: {pfad}");
 
                 //Aufgabe3.a
                 //Die entsprechende Methode entspricht der Rolle der Klasse Starrflugelflug,
                 //und da sie nicht von anderen Klassen genutzt wird, ist es ratsam,
                 //sich innerhalb der Klasse Starrfluegelflug zu befinden.
 
-                //BinaryWriter writer = new BinaryWriter(File.Open(pfad, FileMode.Create));// Output error
-                StreamWriter writer = new StreamWriter(File.Open(pfad, FileMode.Create));
+                writer = new StreamWriter(File.Open(pfad, FileMode.Create));
 
-                string header = $"Flug \"{kennung}\" (Typ \"Starrflügelflugzeug\") startet an Position \"{pos.x}-{pos.y}-{pos.h}\" mit Zielposition \"{zielPos.x}-{zielPos.y}-{zielPos.h}\".";
+                header = $"Flug \"{kennung}\" (Typ \"Starrflügelflugzeug\") startet an Position \"{pos.x}-{pos.y}-{pos.h}\" mit Zielposition \"{zielPos.x}-{zielPos.y}-{zielPos.h}\".";
 
                 writer.Write(header);
-                //writer.Write(Environment.NewLine);
-            
-                                while (!gelandet)
-                                {
 
-                                    writer.Write(pos.x.ToString());
-                                    writer.Write("-");
-                                    writer.Write(pos.y.ToString());
-                                    writer.Write("-");
-                                    writer.Write(pos.h.ToString());
-                                    writer.Write(Environment.NewLine); // 개행 문자 추가
-
-                                    Steuern();
-                                }
+                while (!gelandet)
+                {
+                    writer.Write(pos.x.ToString());
+                    writer.Write("-");
+                    writer.Write(pos.y.ToString());
+                    writer.Write("-");
+                    writer.Write(pos.h.ToString());
+                    writer.Write(Environment.NewLine);
+                    
+                    Steuern();
+                }
 
                 //Aufgabe3.d
                 //Nach der Landung endet die Schleife, in der die Aufzeichnung geschrieben wird,
                 //und der Writer muss geschlossen werden, nachdem die Daten geschrieben wurden.
-                
-                writer.Close();
 
                 Console.WriteLine($" Positionen des Flugzeugs {kennung} wurden protokolliert.");
+                writer.Close();
+                ESA4Out(pfad);
             }
             catch (IOException e)
             {
@@ -216,6 +207,22 @@ namespace ESA_Project
             }
         }
 
+        public void ESA4Out(string pfad)
+        {
+            StreamReader reader = new StreamReader(File.Open(pfad, FileMode.Open));
+
+            try
+            {
+                string airRoute = reader.ReadToEnd();
+                Console.WriteLine(airRoute);
+            }
+            catch (IOException e)
+            {
+                Console.WriteLine("{0} Fehler beim Zugriff auf die Datei " + pfad);
+            }
+            reader.Close();
+        }
+		
         public void Steuern()
         {
             if (steigt)
@@ -245,11 +252,10 @@ namespace ESA_Project
                 }
             }
 
-
             if (!gelandet)
             {
                 // Zunächst die aktuelle Position ausgeben:
-                Aircraft.transponder(kennung, pos);
+                Flieger.transponder(kennung, pos);
 
                 // "strecke" (am Boden) berechnen:
                 if (steigt)
@@ -271,10 +277,9 @@ namespace ESA_Project
             else
             {
                 // Flieger deregistrieren, Transponder abschalten, Abschlussmeldung
-                Aircraft.fliegerRegister -= this.Steuern;
-                Aircraft.transponder -= this.Transpond;
-
-                Console.WriteLine("\n{0} gelandet ( Zieldistanz={1}, Höhendistanz ={2} )", kennung, Zieldistanz(), pos.h - zielPos.h);
+                Flieger.fliegerRegister -= this.Steuern;
+                Flieger.transponder -= this.Transpond;
+                //Console.WriteLine($"Path {pfad}");
             }
         }
 
@@ -286,15 +291,14 @@ namespace ESA_Project
 
             public Düsenflugzeug(string kennung, Position startPos) : base(kennung, startPos)
             {
-                Console.WriteLine("Starte initialized.");
-
                 bool initialized = this.Starte();
-
+/*
                 if (initialized)
                 {
-                    Aircraft.transponder += this.Transpond;
-                    Aircraft.fliegerRegister += this.Steuern;
+                    Flieger.transponder += this.Transpond;
+                    Flieger.fliegerRegister += this.Steuern;
                 }
+*/
             }
 
             public void Starte(Position zielPos, int streckeProTakt, int flughöhe, int steighöheProTakt, int sinkhöheProTakt)
@@ -349,9 +353,8 @@ namespace ESA_Project
                 Array typen = Enum.GetValues(typeof(Airbus));
                 this.typ = (Airbus)typen.GetValue(data[7]);
                 sitzplätze = data[8];
-
-                Console.WriteLine(" Flug {0} vom Typ {1} mit {2} Plätzen initialisiert.", kennung, typ, sitzplätze);
                 steigt = true;
+
                 try
                 {
                     if (protokollieren)
@@ -359,24 +362,24 @@ namespace ESA_Project
                         Protokolldatei();
                     }
                 }
-                catch(IOException e)
+                catch (IOException e)
                 {
                     Console.WriteLine($" Fehler beim Protokollieren für Flugzeug {kennung}");
                 }
-                
+
                 Console.WriteLine();
                 return true;
             }
         }
 
-        class Aircraft
+        class Flieger
         {
             public static TransponderDel transponder;
             public static FliegerRegisterDel fliegerRegister;
             public void ProgrammTakten()
             {
                 Düsenflugzeug flieger1 = new Düsenflugzeug("LH 500", new Position(3500, 1500, 180));
-                //Düsenflugzeug flieger2 = new Düsenflugzeug("LH 3000", new Position(3000, 2000, 100));//Einfach
+                Düsenflugzeug flieger2 = new Düsenflugzeug("LH 3000", new Position(3000, 2000, 100));//Einfach
 
                 while (fliegerRegister != null)
                 {
@@ -388,10 +391,10 @@ namespace ESA_Project
 
             static void Main(string[] args)
             {
-                Aircraft testProject = new Aircraft();
+                Flieger testProject = new Flieger();
                 testProject.ProgrammTakten();
-                Console.ReadLine();
             }
         }
     }
 }
+
