@@ -1,0 +1,15 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion1_Stichpunktsammlung\bin\Release\CSH04_Lektion1_Stichpunktsammlung.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion1_Stichpunktsammlung\bin\Release\CSH04_Lektion1_Stichpunktsammlung.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion1_Stichpunktsammlung\bin\Release\CSH04_Lektion1_Stichpunktsammlung.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion1_Stichpunktsammlung\obj\Release\MainWindow.g.cs
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion1_Stichpunktsammlung\obj\Release\App.g.cs
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion1_Stichpunktsammlung\obj\Release\CSH04_Lektion1_Stichpunktsammlung_MarkupCompile.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion1_Stichpunktsammlung\obj\Release\CSH04_Lektion1_Stichpunktsammlung_MarkupCompile.lref
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion1_Stichpunktsammlung\obj\Release\MainWindow.baml
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion1_Stichpunktsammlung\obj\Release\CSH04_Lektion1_Stichpunktsammlung.g.resources
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion1_Stichpunktsammlung\obj\Release\CSH04_Lektion1_Stichpunktsammlung.Properties.Resources.resources
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion1_Stichpunktsammlung\obj\Release\CSH04_Lektion1_3.csproj.GenerateResource.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion1_Stichpunktsammlung\obj\Release\CSH04_Lektion1_3.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion1_Stichpunktsammlung\obj\Release\CSH04_Lektion1_Stichpunktsammlung.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion1_Stichpunktsammlung\obj\Release\CSH04_Lektion1_Stichpunktsammlung.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion1_Stichpunktsammlung\obj\Release\CSH04_Lektion1_3.csproj.AssemblyReference.cache
