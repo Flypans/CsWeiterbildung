@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:CSH04_Lektion2_2"
         mc:Ignorable="d"
         Title="DockPanel" Height="350" Width="400" Background="LightGray">
-    <DockPanel>
+    <DockPanel LastChildFill="False">
         <Button DockPanel.Dock="Top" Height="20">
             Button 1
         </Button>
@@ -16,11 +16,14 @@
         <Button DockPanel.Dock="Left">
             Button 2
         </Button>
-        <TextBox DockPanel.Dock="Left" Width="100" Background="LightCyan">
+        <TextBox DockPanel.Dock="Right" Width="100" Background="LightCyan">
             TextBox 2
         </TextBox>
-        <Button >
+        <Button DockPanel.Dock="Bottom" Height="40">
             Button 3
         </Button>
+        <TextBox DockPanel.Dock="Bottom" Background="LightSalmon">
+            TextBox 3
+        </TextBox>
      </DockPanel>
 </Window>

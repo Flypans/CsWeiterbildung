@@ -1,0 +1,15 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion2_4\bin\Release\CSH04_Lektion2_4.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion2_4\bin\Release\CSH04_Lektion2_4.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion2_4\bin\Release\CSH04_Lektion2_4.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion2_4\obj\Release\CSH04_Lektion2_4.csproj.AssemblyReference.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion2_4\obj\Release\MainWindow.g.cs
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion2_4\obj\Release\App.g.cs
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion2_4\obj\Release\CSH04_Lektion2_4_MarkupCompile.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion2_4\obj\Release\CSH04_Lektion2_4_MarkupCompile.lref
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion2_4\obj\Release\MainWindow.baml
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion2_4\obj\Release\CSH04_Lektion2_4.g.resources
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion2_4\obj\Release\CSH04_Lektion2_4.Properties.Resources.resources
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion2_4\obj\Release\CSH04_Lektion2_4.csproj.GenerateResource.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion2_4\obj\Release\CSH04_Lektion2_4.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion2_4\obj\Release\CSH04_Lektion2_4.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Lektion2_4\obj\Release\CSH04_Lektion2_4.pdb
