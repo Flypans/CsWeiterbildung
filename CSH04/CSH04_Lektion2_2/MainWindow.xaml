@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CSH04_Lektion2_2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="DockPanel" Height="350" Width="400" Background="LightGray">
+    <DockPanel>
+        <Button DockPanel.Dock="Top" Height="20">
+            Button 1
+        </Button>
+        <TextBox DockPanel.Dock="Top" Height="50" Background="LightCoral">
+            TextBox 1
+        </TextBox>
+        <Button DockPanel.Dock="Left">
+            Button 2
+        </Button>
+        <TextBox DockPanel.Dock="Left" Width="100" Background="LightCyan">
+            TextBox 2
+        </TextBox>
+        <Button >
+            Button 3
+        </Button>
+     </DockPanel>
 </Window>
