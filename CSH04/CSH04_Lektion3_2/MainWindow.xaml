@@ -5,8 +5,57 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CSH04_Lektion3_2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Lektion3_2" Height="450" Width="800">
+    <DockPanel LastChildFill="False">
+        <Menu DockPanel.Dock="Top" Name="meinMenu" Background="LightGray">
+            <MenuItem Header="_Datei">
+                <MenuItem Header="_Neu" InputGestureText="Strg+N" />
+                <MenuItem Header="_Öffnen" InputGestureText="Strg+O" />
+                <Separator />
+                <MenuItem Header="_Speichern" InputGestureText="Strg+S" />
+                <MenuItem Header="Speichern _unter..." />
+                <Separator />
+                <MenuItem Header="_Beenden" InputGestureText="Strg+E" />
+            </MenuItem>
+            <MenuItem Header="Sende _an">
+                <MenuItem Header="_Mail"/>
+                <MenuItem Header="_Desktop" />
+            </MenuItem>
+            <MenuItem />
+            <MenuItem Header="_Bearbeiten" />
+            <MenuItem Header="_Hilfe" />
+        </Menu>
+        <ToolBarTray DockPanel.Dock="Top" IsLocked="False" Background="SkyBlue">
+            <ToolBar Band="0" BandIndex="0" Height="30">
+                <Button>
+                    <Image Source="Icons/page_add.png"/>
+                </Button>
+                <Button>
+                    <Image Source="Icons/folder_explore.png"/>
+                </Button>
+                <Button>
+                    <Image Source="Icons/information.png"/>
+                </Button>
+            </ToolBar>
+            <ToolBar Band="1" BandIndex="0" Height="30">
+                <ComboBox Width="100" SelectedIndex="1">
+                    <ComboBoxItem>Arial</ComboBoxItem>
+                    <ComboBoxItem>Avenir</ComboBoxItem>
+                    <ComboBoxItem>Courier New</ComboBoxItem>
+                </ComboBox>
+            </ToolBar>
+        </ToolBarTray>
+        <StatusBar DockPanel.Dock="Bottom" Height="30">
+            <Label>
+                Statusbar:
+            </Label>
+            <Separator />
+            <StatusBarItem Width="90" HorizontalContentAlignment="Left">
+                <TextBox Width="80">Suchen...</TextBox>
+            </StatusBarItem>
+            <Button Width="80">
+                Start
+            </Button>
+        </StatusBar>
+    </DockPanel>
 </Window>
