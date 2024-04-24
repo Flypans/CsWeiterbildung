@@ -1,0 +1,53 @@
+﻿<Window x:Class="CSH04_Lektion3_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSH04_Lektion3_1"
+        mc:Ignorable="d"
+        Title="Lekktion3 Menu" Height="350" Width="500">
+    <DockPanel LastChildFill="False">
+        <Menu DockPanel.Dock="Top" Name="meinMenu" Background="LightGray">
+            <MenuItem Header="_Datei">
+                <MenuItem Header="_Neu" InputGestureText="Strg+N" />
+                <MenuItem Header="_Öffnen" InputGestureText="Strg+O" />
+                <Separator />
+                <MenuItem Header="_Speichern" InputGestureText="Strg+S" />
+                <MenuItem Header="Speichern _unter..." />
+                <Separator />
+                <MenuItem Header="_Beenden" InputGestureText="Strg+E" />
+            </MenuItem>
+            <MenuItem Header="Sende _an">
+                <MenuItem Header="_Mail"/>
+                <MenuItem Header="_Desktop" />
+            </MenuItem>
+            <MenuItem />
+            <MenuItem Header="_Bearbeiten" />
+            <MenuItem Header="_Hilfe" />
+        </Menu>
+        <ToolBar DockPanel.Dock="Top" Height="30">
+            <Button>
+                <Image Source="Icons/Page_add.png" />
+            </Button>
+            <Button>
+                <Image Source="Icons/folder_explore.png" />
+            </Button>
+            <Button>
+                <Image Source="Icons/information.png" />
+            </Button>
+            <ComboBox Width="100" SelectedIndex="1" >
+                <ComboBoxItem>Arial</ComboBoxItem>
+                <ComboBoxItem>Avenir Next</ComboBoxItem>
+                <ComboBoxItem>Courier New</ComboBoxItem>
+            </ComboBox>
+        </ToolBar>
+        <TextBox Width="200" Margin="100,100">
+            <TextBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Kopieren"  Name="txtMenu1" />
+                    <MenuItem Header="Einfügen" Name="txtMenu2" />
+                </ContextMenu>
+            </TextBox.ContextMenu>
+        </TextBox>
+    </DockPanel>
+</Window>
