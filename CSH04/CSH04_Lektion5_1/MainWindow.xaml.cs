@@ -33,6 +33,7 @@ namespace CSH04_Lektion5_1
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Information,
                 MessageBoxResult.Yes);
+
             if (result == MessageBoxResult.Yes)
             {
                 lblAusgabe.Content = "Anwender hat auf JA geklickt";
