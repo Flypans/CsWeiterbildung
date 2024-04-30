@@ -1,0 +1,78 @@
+﻿<Window x:Class="CSH05_Fliegerprojekt.Konfigurationsdialog"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CSH05_Fliegerprojekt"
+             mc:Ignorable="d" 
+             Title = "Konfigurationsdialog von Flügen (Düsenflugzeug)"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="LightGray">
+        <!--RowDefinitions-->
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <!--ColumnDefinitions-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <!--Label-->
+        <Label Grid.Row="0" Grid.Column="0" >Kennung</Label>
+        <Label Grid.Row="1" Grid.Column="0" >Düsenflugzeugtyp</Label>
+        <Label Grid.Row="2" Grid.Column="0" >Startposition x, y, h</Label>
+        <Label Grid.Row="3" Grid.Column="0" >Zielposition x, y, h</Label>
+        <Label Grid.Row="4" Grid.Column="0" >Reiseflughöhe (m)</Label>
+        <Label Grid.Row="5" Grid.Column="0" >Flugstrecke pro     Takt (m)</Label>
+        <Label Grid.Row="6" Grid.Column="0" >Steighöhe pro Takt (m)</Label>
+        <Label Grid.Row="7" Grid.Column="0" >Sinkhöhe pro Takt (m)</Label>
+        <Label Grid.Row="8" Grid.Column="0" >Anzahl Plätze</Label>
+        <Label Grid.Row="9" Grid.Column="0" HorizontalAlignment="Right">Flug…</Label>
+        <!--TextBox-->
+        <TextBox Name="tbKennung" Grid.Row="0" Grid.Column="1" Height="20"></TextBox>
+        <!--ComboBox-->
+        <!--<ComboBox Name="cbTyp" Width="400" Height="40" />-->
+        <ComboBox Name="cbTyp" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Height="20"></ComboBox>
+        <!--TextBox-->
+        <TextBox Name="tbStartX" Grid.Row="2" Grid.Column="1" Height="20" Margin="3"></TextBox>
+        <TextBox Name="tbStartY" Grid.Row="2" Grid.Column="2" Height="20" Margin="3"></TextBox>
+        <TextBox Name="tbStartH" Grid.Row="2" Grid.Column="3" Height="20" Margin="3"></TextBox>
+        <TextBox Name="tbZielX" Grid.Row="3" Grid.Column="1" Height="20" Margin="3"></TextBox>
+        <TextBox Name="tbZielY" Grid.Row="3" Grid.Column="2" Height="20" Margin="3"></TextBox>
+        <TextBox Name="tbZielH" Grid.Row="3" Grid.Column="3" Height="20" Margin="3"></TextBox>
+        <TextBox Name="tbFlughoehe" Grid.Row="4" Grid.Column="1" Height="20"></TextBox>
+        <TextBox Name="tbFlugstrecke" Grid.Row="5" Grid.Column="1" Height="20"></TextBox>
+        <TextBox Name="tbSteighoehe" Grid.Row="6" Grid.Column="1" Height="20"></TextBox>
+        <TextBox Name="tbSinkhöhe" Grid.Row="7" Grid.Column="1" Height="20"></TextBox>
+        <TextBox Name="tbAnzahlPlaetze" Grid.Row="8" Grid.Column="1" Height="20"></TextBox>
+        <!--Button-->
+        <Button Name="ladenButton" Grid.Row="9" Grid.Column="1" Height="20" Margin="3">
+            Laden
+        </Button>
+        <Button Name="speichernButton" Grid.Row="9" Grid.Column="2" Height="20" Margin="3">
+            Speichern
+        </Button>
+        <Button Name="loeschenButton" Grid.Row="9" Grid.Column="3" Height="20" Margin="3">
+            Löschen
+        </Button>
+        <Button Name="startenButton" Grid.Row="9" Grid.Column="4" Height="20" Margin="3">
+            Starten
+        </Button>
+        <Button Click="beenden_Click" Name="beendenButton" IsCancel="True" Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="4" Height="20" Margin="3">
+            Konfigurationsdialog beenden
+        </Button>
+    </Grid>
+</Window>

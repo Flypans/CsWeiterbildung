@@ -67,7 +67,6 @@ namespace CSH04_Lektion5_2
             {
                 statusLabel.Content = "List Empty";
             }
-
             else if (index > 0 )
             {
                 index--;

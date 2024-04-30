@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:CSH04_Lektion3_4"
         mc:Ignorable="d"
         Title="Stichpunktsammlung" Height="480" Width="500">
-    <DockPanel LastChildFill="False">
+    <DockPanel LastChildFill="False" Margin="0,0,-16.4,-29.6">
         <Menu DockPanel.Dock="Top" Name="meinMenu" Background="LightGray">
             <MenuItem Header="_Datei">
                 <MenuItem Header="_Neu" InputGestureText="Strg+N" />
