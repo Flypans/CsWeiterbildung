@@ -10,3 +10,6 @@ C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Release\Konfiguration
 C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Release\CSH05_Fliegerprojekt.g.resources
 C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Release\CSH05_Fliegerprojekt.exe
 C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Release\CSH05_Fliegerprojekt.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\bin\Release\Db4objects.Db4o.dll
+C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\bin\Release\Db4objects.Db4o.xml
+C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Release\CSH05_Fliegerprojekt.csproj.CopyComplete

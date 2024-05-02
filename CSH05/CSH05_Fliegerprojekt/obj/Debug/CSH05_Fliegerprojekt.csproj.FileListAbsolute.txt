@@ -5,3 +5,11 @@ C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Debug\CSH05_Fliegerpr
 C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Debug\CSH05_Fliegerprojekt.csproj.CoreCompileInputs.cache
 C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Debug\CSH05_Fliegerprojekt.exe
 C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Debug\CSH05_Fliegerprojekt.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\bin\Debug\Db4objects.Db4o.dll
+C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\bin\Debug\Db4objects.Db4o.xml
+C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Debug\Konfigurationsdialog.g.cs
+C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Debug\CSH05_Fliegerprojekt_MarkupCompile.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Debug\CSH05_Fliegerprojekt_MarkupCompile.lref
+C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Debug\Konfigurationsdialog.baml
+C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Debug\CSH05_Fliegerprojekt.g.resources
+C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Debug\CSH05_Fliegerprojekt.csproj.CopyComplete

@@ -4,11 +4,11 @@
 exe
 C#
 .cs
-C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Release\
+C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Debug\
 CSH05_Fliegerprojekt
 none
 false
-TRACE
+DEBUG;TRACE
 
 11194433835
 
@@ -16,5 +16,5 @@ TRACE
 14381771488
 Konfigurationsdialog.xaml;
 
-False
+True
 
