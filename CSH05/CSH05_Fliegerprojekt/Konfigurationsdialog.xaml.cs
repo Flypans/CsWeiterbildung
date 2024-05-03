@@ -46,7 +46,7 @@ namespace CSH05_Fliegerprojekt
         {
             flieger.Kennung = tbKennung.Text;
 
-            if(flieger.Kennung.Length == 0)
+            if (flieger.Kennung.Length == 0)
             {
                 Console.WriteLine("Fliegerkennung nicht gesetzt");
                 isConfigurationComplete = false;
@@ -84,12 +84,45 @@ namespace CSH05_Fliegerprojekt
         {
             IObjectContainer db = null;
 
+            //DB-Update-Arbeitsobjekts
+            bool update = false; 
+
             try
             {
                 db = Db4oFactory.OpenFile(dbName);
 
+                //DB-Update-Arbeitsobjekts [
+                IList<Duesenflugzeug> fluege = db.Query<Duesenflugzeug>( 
+                    delegate (Duesenflugzeug flieger) 
+                    { 
+                        return flieger.Kennung == tbKennung.Text; 
+                    });
+
+                foreach(Duesenflugzeug flieger in fluege)
+                {
+                    Console.WriteLine("Flug mit der Kennung {0} in Datenbank gefunden", flieger.Kennung);
+                }
+
+                if(fluege.Count > 0)
+                {
+                    flieger = fluege.First();
+                    update = true;
+                }
+                //DB-Update-Arbeitsobjekts ]
+
                 this.initializeFlieger();
                 db.Store(flieger);
+
+                //DB-Update-Arbeitsobjekts [
+                if(update)
+                {
+                    Console.WriteLine("Datenbank-Update für den Flug mit der kennung {0}", flieger.Kennung);
+                }
+                else
+                {
+                    Console.WriteLine("Flug mit der Kennung{0} in der Datenbank gespeichert", flieger.Kennung);
+                }
+                //DB-Update-Arbeitsobjekts ]
             }
             catch (Exception ex)
             {
@@ -97,7 +130,7 @@ namespace CSH05_Fliegerprojekt
             }
             finally
             {
-                if(db != null)
+                if (db != null)
                 {
                     db.Close();
                 }

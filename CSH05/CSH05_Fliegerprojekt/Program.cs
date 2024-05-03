@@ -291,7 +291,6 @@ namespace CSH05_Fliegerprojekt
     {
         public static TransponderDel transponder;
         public static FliegerregisterDel fliegerRegister;
-        internal bool isConfigurationComplete;
 
         public static bool protokollieren = true;
 
