@@ -24,6 +24,10 @@ namespace CSH05_Fliegerprojekt
         private Duesenflugzeug flieger;
         private bool isConfigurationComplete;
 
+        public Duesenflugzeug Flieger // add CSH05B S43
+        {
+            get { return flieger; }
+        }
         public Konfigurationsdialog(Duesenflugzeug flieger)
         {
             this.flieger = flieger; //member variable
@@ -94,7 +98,7 @@ namespace CSH05_Fliegerprojekt
             tbFlugstrecke.Text = flieger.streckeProTakt.ToString();
             tbAnzahlPlaetze.Text = flieger.sitzplaetze.ToString();
         }
-        private void beenden_Click(object sender, RoutedEventArgs e)
+        private void buttonBeenden_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
@@ -164,7 +168,7 @@ namespace CSH05_Fliegerprojekt
             select.Width = 400;
 
             //if (result == DialogResult.OK)
-            if(select.ShowDialog() == true)
+            if (select.ShowDialog() == true)
             {
                 flieger = select.Flugauswahl;
                 this.SetEingabewerte(flieger);
@@ -175,6 +179,47 @@ namespace CSH05_Fliegerprojekt
             {
                 Console.WriteLine("Flugauswahl abgebrochen");
             }
+        }
+
+        private void buttonLoeschen_Click(object sender, RoutedEventArgs e)
+        {
+            IObjectContainer db = null;
+
+            try
+            {
+                db = Db4oFactory.OpenFile(dbName);
+                IList<Duesenflugzeug> fluege = db.Query<Duesenflugzeug>(delegate (Duesenflugzeug flieger)
+                {
+                    return flieger.Kennung == tbKennung.Text;
+                });
+
+                if (fluege.Count > 0)
+                {
+                    flieger = fluege.First();
+                    db.Delete(flieger);
+                    Console.WriteLine($"Flug {flieger.Kennung} gelöscht");
+                }
+                else
+                {
+                    Console.WriteLine($"Kein Flug mit der Kennung {tbKennung.Text} in der Datenbank");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.GetType() + ": " + ex.Message);
+            }
+            finally
+            {
+                if (db != null)
+                {
+                    db.Close();
+                }
+            }
+        }
+
+        private void buttonStarten_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

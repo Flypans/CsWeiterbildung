@@ -23,7 +23,6 @@ namespace CSH05_Fliegerprojekt
     partial class Flugauswahldialog : Window
     {
         private string dbName;
-
         public Duesenflugzeug Flugauswahl
         {
             get
@@ -44,8 +43,6 @@ namespace CSH05_Fliegerprojekt
         {
             IObjectContainer db = null;
 
-
-
             try
             {
                 db = Db4oFactory.OpenFile(dbName);
@@ -54,7 +51,14 @@ namespace CSH05_Fliegerprojekt
                 while (result.HasNext())
                 {
                     cBoxFluege.Items.Add(result.Next());
+
+                    // add Query Result to ComboBox
+                    //Duesenflugzeug flugzeug = (Duesenflugzeug)result.Next();
+                    //cBoxFluege.Items.Add(flugzeug); 
+
                     cBoxFluege.SelectedIndex = 0;
+                    //cBoxFluege.SelectedIndex = cBoxFluege.Items.Count -1;
+
                 }
             }
             catch (Exception ex)

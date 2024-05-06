@@ -304,6 +304,7 @@ namespace CSH05_Fliegerprojekt
 
             if (config.ShowDialog() == true)
             {
+                flieger = config.Flieger;// add CSH05B S43
                 flieger.Starte();
             }
             else

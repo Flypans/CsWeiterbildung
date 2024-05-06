@@ -65,13 +65,13 @@
         <Button Click="buttonSpeichern_Click" Name="speichernButton" Grid.Row="9" Grid.Column="2" Height="20" Margin="3">
             Speichern
         </Button>
-        <Button Name="loeschenButton" Grid.Row="9" Grid.Column="3" Height="20" Margin="3">
+        <Button Click="buttonLoeschen_Click" Name="loeschenButton" Grid.Row="9" Grid.Column="3" Height="20" Margin="3">
             Löschen
         </Button>
-        <Button Name="startenButton" Grid.Row="9" Grid.Column="4" Height="20" Margin="3">
+        <Button Click="buttonStarten_Click" Name="startenButton" Grid.Row="9" Grid.Column="4" Height="20" Margin="3">
             Starten
         </Button>
-        <Button Click="beenden_Click" Name="beendenButton" IsCancel="True" Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="4" Height="20" Margin="3">
+        <Button Click="buttonBeenden_Click" Name="beendenButton" IsCancel="True" Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="4" Height="20" Margin="3">
             Konfigurationsdialog beenden
         </Button>
     </Grid>
