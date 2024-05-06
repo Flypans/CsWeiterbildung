@@ -56,10 +56,10 @@
         <TextBox Name="tbFlughoehe" Grid.Row="4" Grid.Column="1" Height="20"></TextBox>
         <TextBox Name="tbFlugstrecke" Grid.Row="5" Grid.Column="1" Height="20"></TextBox>
         <TextBox Name="tbSteighoehe" Grid.Row="6" Grid.Column="1" Height="20"></TextBox>
-        <TextBox Name="tbSinkhöhe" Grid.Row="7" Grid.Column="1" Height="20"></TextBox>
+        <TextBox Name="tbSinkhoehe" Grid.Row="7" Grid.Column="1" Height="20"></TextBox>
         <TextBox Name="tbAnzahlPlaetze" Grid.Row="8" Grid.Column="1" Height="20"></TextBox>
         <!--Button-->
-        <Button Name="ladenButton" Grid.Row="9" Grid.Column="1" Height="20" Margin="3">
+        <Button Click="buttonLaden_Click" Name="ladenButton" Grid.Row="9" Grid.Column="1" Height="20" Margin="3">
             Laden
         </Button>
         <Button Click="buttonSpeichern_Click" Name="speichernButton" Grid.Row="9" Grid.Column="2" Height="20" Margin="3">

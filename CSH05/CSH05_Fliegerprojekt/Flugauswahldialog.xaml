@@ -1,0 +1,27 @@
+﻿<Window x:Class="CSH05_Fliegerprojekt.Flugauswahldialog"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CSH05_Fliegerprojekt"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="400">
+    <Grid Background="LightGray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Bitte wählen Sie aus dem Feld den gewünschten Flug aus:" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <ComboBox Name="cBoxFluege" Grid.Row="1"  HorizontalAlignment="Center"  Margin="10"  Width="300"/>
+        <Grid Grid.Row="2" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Button Content="Übernehmen" Height="30"  Width="80" HorizontalAlignment="Left" Margin="5" />
+            <Button Click="Abbrechen_Click" Content="Abbrechen" Height="30"  Width="80" HorizontalAlignment="Right" Margin="5" />
+        </Grid>
+    </Grid>
+</Window>

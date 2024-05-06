@@ -4,15 +4,15 @@
 exe
 C#
 .cs
-C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Release\
+C:\CSH-Lehrgang\VS-Projekte\CSH05\CSH05_Fliegerprojekt\obj\Debug\
 CSH05_Fliegerprojekt
 none
 false
-TRACE
+DEBUG;TRACE
 
 2-1502773284
 
-5-1199852369
+5-964632904
 14381771488
 Konfigurationsdialog.xaml;Flugauswahldialog.xaml;
 
