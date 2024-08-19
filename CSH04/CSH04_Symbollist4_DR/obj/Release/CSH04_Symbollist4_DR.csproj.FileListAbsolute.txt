@@ -1,0 +1,14 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbollist4_DR\bin\Release\CSH04_Symbollist4_DR.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbollist4_DR\bin\Release\CSH04_Symbollist4_DR.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbollist4_DR\bin\Release\CSH04_Symbollist4_DR.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbollist4_DR\obj\Release\MainWindow.g.cs
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbollist4_DR\obj\Release\App.g.cs
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbollist4_DR\obj\Release\CSH04_Symbollist4_DR_MarkupCompile.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbollist4_DR\obj\Release\CSH04_Symbollist4_DR_MarkupCompile.lref
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbollist4_DR\obj\Release\MainWindow.baml
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbollist4_DR\obj\Release\CSH04_Symbollist4_DR.g.resources
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbollist4_DR\obj\Release\CSH04_Symbollist4_DR.Properties.Resources.resources
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbollist4_DR\obj\Release\CSH04_Symbollist4_DR.csproj.GenerateResource.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbollist4_DR\obj\Release\CSH04_Symbollist4_DR.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbollist4_DR\obj\Release\CSH04_Symbollist4_DR.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbollist4_DR\obj\Release\CSH04_Symbollist4_DR.pdb

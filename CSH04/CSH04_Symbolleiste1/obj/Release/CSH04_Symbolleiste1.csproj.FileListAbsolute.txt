@@ -1,0 +1,15 @@
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbolleiste1\bin\Release\CSH04_Symbolleiste1.exe.config
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbolleiste1\bin\Release\CSH04_Symbolleiste1.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbolleiste1\bin\Release\CSH04_Symbolleiste1.pdb
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbolleiste1\obj\Release\CSH04_Symbolleiste1.csproj.AssemblyReference.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbolleiste1\obj\Release\MainWindow.g.cs
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbolleiste1\obj\Release\App.g.cs
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbolleiste1\obj\Release\CSH04_Symbolleiste1_MarkupCompile.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbolleiste1\obj\Release\CSH04_Symbolleiste1_MarkupCompile.lref
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbolleiste1\obj\Release\MainWindow.baml
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbolleiste1\obj\Release\CSH04_Symbolleiste1.g.resources
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbolleiste1\obj\Release\CSH04_Symbolleiste1.Properties.Resources.resources
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbolleiste1\obj\Release\CSH04_Symbolleiste1.csproj.GenerateResource.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbolleiste1\obj\Release\CSH04_Symbolleiste1.csproj.CoreCompileInputs.cache
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbolleiste1\obj\Release\CSH04_Symbolleiste1.exe
+C:\CSH-Lehrgang\VS-Projekte\CSH04\CSH04_Symbolleiste1\obj\Release\CSH04_Symbolleiste1.pdb

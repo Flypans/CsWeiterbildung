@@ -1,0 +1,44 @@
+﻿<Window x:Class="CSH04_Lektion5_Einsendeaufgabe3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSH04_Lektion5_Einsendeaufgabe3"
+        mc:Ignorable="d"
+        Title="Einsendeaufgabe3" Height="600" Width="400">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" MinWidth="348" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Menu Grid.Row="0" Height="30" >
+            <MenuItem Header="Alles Löschen" Click="AllesLoeschen_Click" />
+            <MenuItem Header="Beenden"  Click="Beenden_Click"/>
+        </Menu>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" >
+            <Label Height="30" Content="Titel:" Margin="10,10" VerticalAlignment="Center"/>
+            <TextBox KeyDown="TextBox_KeyDown" Height="30" Width="300" Name="textLabel" FontSize="20" VerticalAlignment="Center"/>
+        </StackPanel>
+        <TextBox Grid.Row="2" Name="textBox" TextWrapping="Wrap"  AcceptsReturn="True" FontSize="16" />
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" Width="146" Margin="10,10">
+            <Button Height="30" Content="Alles Löschen" Click="AllesLoeschen_Click" Margin="5"/>
+            <Button Height="30" Content="Beenden" Click="Beenden_Click" Margin="5"/>
+        </StackPanel>
+        <StackPanel Grid.Row="4" Margin="10,10" Cursor="None">
+            <StatusBar>
+                <Label Height="25">
+                    Statusbar:
+                </Label>
+                <Separator />
+                <StatusBarItem Height="25" Name="statusLabel" FontSize="12"></StatusBarItem>
+            </StatusBar>
+        </StackPanel>
+    </Grid>
+</Window>
